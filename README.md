@@ -4,6 +4,8 @@ The procedure is to design a two stage CMOS operational amplifier and to do tran
 The objective is to achieve specifications only using opan source pdk's. 
 # symbol and pin configurations
 ![image](https://user-images.githubusercontent.com/88903159/129486979-8523d3f6-e871-4c11-bcaa-460efd463f3c.png)
+# parameters
+Below is the compiled list of parameters according to specifications
 
 
 
