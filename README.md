@@ -6,6 +6,8 @@ The objective is to achieve specifications only using opan source pdk's.
 ![image](https://user-images.githubusercontent.com/88903159/129486979-8523d3f6-e871-4c11-bcaa-460efd463f3c.png)
 # parameters
 Below is the compiled list of parameters according to specifications
+![image](https://user-images.githubusercontent.com/88903159/129600882-065f2f88-7b2e-45f1-8b6c-cfeb67ea28d5.png)
+
 
 
 
