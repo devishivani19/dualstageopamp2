@@ -58,7 +58,7 @@ Open the terminal and type the following
 
 $  sudo apt install -y git
 
-$  git clone https://github.com/
+$  git clone https://github.com/devishivani19/dualstageopamp2.git
 
 # Pre-Layout simulations
 To run and view the waveforms, type the following commands after cloning in above step.
