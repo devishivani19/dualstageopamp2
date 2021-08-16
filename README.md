@@ -8,17 +8,25 @@ The objective is to achieve specifications only using opan source pdk's.
 Below is the compiled list of parameters according to specifications
 ![image](https://user-images.githubusercontent.com/88903159/129600882-065f2f88-7b2e-45f1-8b6c-cfeb67ea28d5.png)
 # Applications
-ADC Drivers
-Data Acquisition and Instrumentation
-Power Grid Systems
-Motor Control
-Test and Measurement Equipments
-Imaging Systems
-High-Performance Audio Circuitry
+ADC Drivers.
+
+Data Acquisition and Instrumentation.
+
+Power Grid Systems.
+
+Motor Control.
+
+Test and Measurement Equipments.
+
+Imaging Systems.
+
+High-Performance Audio Circuitry.
 # Limitations
-Need for common mode output voltage stabilization
-Compensation of common mode feedback loop
-Difficult to interface with single-ended circuits
+Need for common mode output voltage stabilization.
+
+Compensation of common mode feedback loop.
+
+Difficult to interface with single-ended circuits.
 
 
 
