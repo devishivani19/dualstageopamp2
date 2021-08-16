@@ -114,7 +114,7 @@ N. Devi Shivani
 
 # Contact information
  
-N. Devi Shivani,M.tech VLSI System Design, ndevishivani1998@gmail.com
+N. Devi Shivani,M.tech VLSI System Design, ANURAG UNIVERSITY, ndevishivani1998@gmail.com
 
 Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
 
