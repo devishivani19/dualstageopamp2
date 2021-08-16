@@ -109,7 +109,16 @@ ngspice 1 -> twostageopamp.spice
 ![VirtualBox_ubuntu 20 04_16_08_2021_23_20_46 (2)](https://user-images.githubusercontent.com/88903159/129607810-3c3b5d2e-c614-4c5d-aa9b-17a94ee5fe45.png)
 
 
+# Author
+N. Devi Shivani
 
+# Contact information
+ 
+N. Devi Shivani,M.tech VLSI System Design, ndevishivani1998@gmail.com
+
+Kunal Ghosh, Director, VSD Corp. Pvt. Ltd. kunalghosh@gmail.com
+
+Philipp Gühring, Software Architect, LibreSilicon Assocation pg@futureware.at
 
 
 
