@@ -75,13 +75,21 @@ ngspice 1 -> transientanalysis.cir
 # Post-Layout simulations
 To view the layout, type the following comand in continuation with pre-layout simulations,
 ngspice 1 -> exit
+
 This exits the ngspice shell.
+
 In the terminal, type the following commands.
+
 $  cd ..
+
 $  cd ..
+
 $  cd Postlayout2/Mags
+
 $  magic -T twosatgeopamp.mag
+
 The following is the layout for the two stage opamp
+
 ![VirtualBox_ubuntu 20 04_16_08_2021_23_04_38](https://user-images.githubusercontent.com/88903159/129605753-a9e127d6-6d15-4510-b6c1-8ddaecf0cd79.png)
 
 To run and view the post- layout waveforms, type the following commands after above steps in terminal.
@@ -97,6 +105,9 @@ This opens ngspice shell.
 To plot between frequency and voltage for the transient analysis. Type the following in Ngspice shell and press enter.
 
 ngspice 1 -> twostageopamp.spice
+
+![VirtualBox_ubuntu 20 04_16_08_2021_23_20_46 (2)](https://user-images.githubusercontent.com/88903159/129607810-3c3b5d2e-c614-4c5d-aa9b-17a94ee5fe45.png)
+
 
 
 
