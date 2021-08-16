@@ -27,6 +27,39 @@ Need for common mode output voltage stabilization.
 Compensation of common mode feedback loop.
 
 Difficult to interface with single-ended circuits.
+# IP usage
+# Tools needed to view and simulate this IP
+# 1. Ngspice
+Ngspice is the open source spice simulator for electric and electronic circuits. Ngspice is an open project, there is no closed group of developers.
+
+# Installing Ngspice in Ubuntu 20.04
+Open the terminal and type the following to install Ngspice.
+$  sudo apt-get install ngspice
+# 2. Magic
+Magic is a VLSI layout tool.
+
+# Installing Magic in Ubuntu 20.04
+Open the terminal and type the following to install Magic
+
+$  wget http://opencircuitdesign.com/magic/archive/magic-8.3.32.tgz
+$  tar xvfz magic-8.3.32.tgz
+$  cd magic-8.3.28
+$  ./configure
+$  sudo make
+$  sudo make install
+# Steps to clone this git repository in Unix based systems for simulating waveforms.
+Open the terminal and type the following
+
+$  sudo apt install -y git
+$  git clone https://github.com/
+
+# Pre-Layout simulations
+To run and view the waveforms, type the following commands after cloning in above step.
+$  cd twostageopamp/prelayout/cir
+$  ngspice
+This opens ngspice shell.
+Type the following in Ngspice shell and press enter.
+ngspice 1 -> transientanalysis.cir
 
 
 
