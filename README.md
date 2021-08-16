@@ -72,7 +72,15 @@ This opens ngspice shell.
 Type the following in Ngspice shell and press enter.
 
 ngspice 1 -> transientanalysis.cir
-
+# Post-Layout simulations
+To view the layout, type the following comand in continuation with pre-layout simulations,
+ngspice 1 -> exit
+This exits the ngspice shell.
+In the terminal, type the following commands.
+$  cd ..
+$  cd ..
+$  cd Postlayout2/Mags
+$  magic -T twosatgeopamp.mag
 
 
 
