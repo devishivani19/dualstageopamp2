@@ -108,6 +108,12 @@ ngspice 1 -> twostageopamp.spice
 
 ![VirtualBox_ubuntu 20 04_16_08_2021_23_20_46 (2)](https://user-images.githubusercontent.com/88903159/129607810-3c3b5d2e-c614-4c5d-aa9b-17a94ee5fe45.png)
 
+to plot between frequency and voltage for gain analysis. Type the following in the ngspice shell and press enter.
+
+ngspice twostageopampgain.spice
+
+![dualstageopampgain (2)](https://user-images.githubusercontent.com/88903159/130251062-573dad9c-42a2-4460-9833-c6d4b170dd88.png)
+
 
 # Author
 N. Devi Shivani
