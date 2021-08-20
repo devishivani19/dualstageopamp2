@@ -1,0 +1,27 @@
+* SPICE3 file created from twostageopamp.ext - technology: sky130A
+
+
+.lib "skywater-pdk-libs-sky130_fd_pr/models/sky130.lib.spice" tt
+xM1  Net-_M1-Pad1_ vin1 Net-_M0-Pad1_ Net-_M0-Pad1_ sky130_fd_pr__pfet_01v8 w=1.4 l=1
+xM2  Net-_M2-Pad1_ vin2 Net-_M0-Pad1_ Net-_M0-Pad1_ sky130_fd_pr__pfet_01v8 w=1.4 l=1
+xM0  Net-_M0-Pad1_ Net-_M0-Pad2_ GND GND sky130_fd_pr__pfet_01v8 w=1.6 l=1
+xM8  Net-_M0-Pad2_ Net-_M0-Pad2_ GND GND sky130_fd_pr__pfet_01v8 w=0.8 l=1
+xM6  vout GND GND GND sky130_fd_pr__pfet_01v8 w=21.5 l=1
+xM5  vout Net-_M2-Pad1_ vdd1 vdd1 sky130_fd_pr__nfet_01v8 w=45.5 l=1
+*C1  vout GND 2p
+*C0  vout Net-_C0-Pad2_ 800f
+vdd1  GND Net-_M3-Pad3_ 1.8
+R1  Net-_M2-Pad1_ Net-_C0-Pad2_ 2k
+xM7  Net-_M0-Pad2_ Net-_M0-Pad2_ vdd1 vdd1 sky130_fd_pr__pfet_01v8 w=1.6 l=1
+xM3  Net-_M1-Pad1_ Net-_M1-Pad1_ vdd1 vdd1 sky130_fd_pr__nfet_01v8 w=1.8 l=1
+xM4  Net-_M2-Pad1_ Net-_M1-Pad1_ vdd1 vdd1 sky130_fd_pr__nfet_01v8 w=1.8 l=1
+vin1 vin1 GND ac 0.8 0
+vin2 vin2 GND ac -0.8 0
+.ac dec 20 1kHz 100Meg
+.control
+run
+plot db(vin1) 
+plot db(vin2) 
+plot db(vout)
+.endc
+.end
